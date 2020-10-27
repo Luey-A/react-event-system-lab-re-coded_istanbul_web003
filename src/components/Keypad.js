@@ -6,7 +6,7 @@ class Keypad extends Component {
     super(props)
   }
 
-  handleKeyUp() =>{
+  handleKeyUp =() =>{
     console.log('Entering password');
   }
 
