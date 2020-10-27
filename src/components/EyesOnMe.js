@@ -6,7 +6,7 @@ class EyesOnMe extends Component {
     super(props)
   }
 
-  handleFocus() => {
+  handleFocus =() => {
     console.log('Good!');
   }
 
